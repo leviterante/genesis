@@ -1,0 +1,33 @@
+// Colors
+$grey: #444444;
+$darkGrey: rgba(26, 24, 22, 0.85);
+$orange: #ffb03b;
+$lightOrange: #ffc56e;
+$lightBlue: rgba(127, 137, 161, 0.25);
+
+// Functions
+@function toRem($value) {
+  $remValue: ($value / 16) + rem;
+  @return $remValue;
+}
+
+// Flex styles
+.flex {
+  display: flex;
+
+  &-ai-c {
+    align-items: center;
+  }
+
+  &-jc-c {
+    justify-content: center;
+  }
+
+  &-dir-row {
+    flex-direction: row;
+  }
+
+  &-dir-col {
+    flex-direction: column;
+  }
+}

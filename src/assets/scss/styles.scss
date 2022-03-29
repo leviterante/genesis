@@ -1,0 +1,17 @@
+@import "~bootstrap/scss/bootstrap";
+@import "./variables";
+@import "./globals";
+
+@import "./topbar/topbar";
+@import "./header/header";
+@import "./hero/hero";
+@import "./about/about";
+@import "./whyus/whyus";
+@import "./menu/menu";
+@import "./specials/specials";
+@import "./events/events";
+@import "./gallery/gallery";
+@import "./chef/chef";
+@import "./testimonials/testimonials.scss";
+@import "./contact/contact";
+@import "./footer/footer.scss";
